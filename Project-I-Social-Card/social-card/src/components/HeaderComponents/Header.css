@@ -1,1 +1,9 @@
 /* All styles for your header Components live here */
+.titleBody{
+    display: flex;
+    align-items: start;
+    margin-top: 2rem;
+}
+.title{
+    margin-top: 0;
+}
