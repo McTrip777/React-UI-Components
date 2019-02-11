@@ -1,10 +1,12 @@
 import React from 'react';
 import './Header.css';
+import HeaderTitle from './HeaderTitle';
 
 
-const HeaderText = () => {
+const HeaderContent = () => {
     return (
-      <div className="text">
+        <div className="titleBody">
+        <HeaderTitle />
         <p>
             Let's learn React by building simple
             interfaces with components. Don't try
@@ -15,4 +17,4 @@ const HeaderText = () => {
       </div>
     );
   }
-  export default HeaderText;
+  export default HeaderContent;

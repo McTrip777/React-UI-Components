@@ -1,9 +1,44 @@
 /* All styles for your header Components live here */
-.titleBody{
-    display: flex;
-    align-items: start;
-    margin-top: 2rem;
+.container{
+    
 }
-.title{
-    margin-top: 0;
+.head{
+    display:flex;
+    border:2px solid orange;
+}
+.container .img{
+    border-radius: 50%;
+    background-color: black;
+    margin:auto;
+    border:2px solid green;
+}
+.img img{
+    display:flex;
+    margin: 0 auto;   
+    padding: 1rem;  
+    width:50px;
+    height: 50px;
+}
+
+.container .titleBody{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 1rem 0 0 1rem;
+    border:2px solid lightblue;
+
+}
+.titleBody p{
+    margin-top:0;
+}
+
+.container .lambda{
+    display:flex;
+    align-items: baseline;
+    
+}
+.container .lambda span{
+    font-size: 80%;
+    margin-left:1rem;
+    color: grey;
 }
