@@ -1,9 +1,9 @@
 .screen{
     display:flex;
     width:99.5%;
+    height:7.5rem;
     border: 1px solid black;
-    height:7.8rem;
-    background-color: grey; 
+    background-color: rgb(73, 73, 73); 
 }
 .screen p{
     display: flex;

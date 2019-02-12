@@ -2,30 +2,11 @@ import React from 'react';
 import './Button.css';
 
 
-const ActionButton = () => {
+const ActionButton = props => {
     return (
-      <div className='action'>
-        <div className='clear'>
-            <p>clear</p>
-        </div>
-        <div>
-            <div className='actionBox actionbox1'>
-                <p>/</p>
-            </div>
-            <div className='actionBox actionbox2'>
-                <p>x</p>
-            </div>
-            <div className='actionBox actionbox3'>
-                <p>-</p>
-            </div>
-            <div className='actionBox actionbox4'>
-                <p>+</p>
-            </div>
-            <div className='actionBox actionbox5'>
-                <p>=</p>
-            </div>
-        </div>
-      </div>
+    <button className = {`bigButton ${props.className}`}>
+        {props.text}
+    </button>
     );
 };
   
