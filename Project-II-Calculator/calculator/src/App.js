@@ -13,29 +13,29 @@ const App = () => {
       <CalculatorDisplay />
       <div className='section'>
         <ActionButton text='clear'/>
-        <NumberButton text='/'/>
+        <NumberButton className='buttonStyles' text='/'/>
       </div>
       <div className='section'>
         <NumberButton text='7'/>
         <NumberButton text='8'/>
         <NumberButton text='9'/>
-        <NumberButton text='x'/>
+        <NumberButton className='buttonStyles' text='x'/>
       </div>
       <div className='section'>
         <NumberButton text='4'/>
         <NumberButton text='5'/>
         <NumberButton text='6'/>
-        <NumberButton buttonStyles='pink' text='-'/>
+        <NumberButton className='buttonStyles' text='-'/>
       </div>
       <div className='section'>
         <NumberButton text='1'/>
         <NumberButton text='2'/>
         <NumberButton text='3'/>
-        <NumberButton text='+'/>
+        <NumberButton className='buttonStyles' text='+'/>
       </div>
       <div className='section'>
         <ActionButton text='0'/>
-        <NumberButton text='='/>
+        <NumberButton className='buttonStyles' text='='/>
       </div>  
     </div>
   );
