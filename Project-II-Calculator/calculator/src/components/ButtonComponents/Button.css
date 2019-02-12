@@ -1,0 +1,19 @@
+.buttonBoxes, .action{
+    display:flex;
+    flex-wrap: wrap;
+    height:20rem;
+    width:100%;
+}
+.box{
+    display:flex;
+    width:6.97rem;
+    height:5.75rem;
+    border: 1px solid black;
+}
+.actionBox{
+    display:flex;
+    flex-direction: column;
+    width:7rem;
+    height:5.75rem;
+    border: 1px solid black;
+}

@@ -1,0 +1,6 @@
+.screen{
+    display:flex;
+    width:99.5%;
+    border: 1px solid black;
+    height:7.8rem;
+}
