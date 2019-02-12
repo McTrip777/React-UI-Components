@@ -1,19 +1,41 @@
-.buttonBoxes, .action{
+.buttonBoxes{
     display:flex;
     flex-wrap: wrap;
     height:20rem;
+    width:80%;
+}
+.action{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height:5.8rem;
     width:100%;
+    text-align: center;
+}
+.clear{
+    border: 1px solid black;
+    width:20.8rem;
+    height:5.75rem;
+}
+.clear p{
+    font-size: 3rem;
+    margin-top:1rem;
+}
+.actionBox{
+    width:7.3rem;
+    height:5.75rem;
+    border: 1px solid black;
+}
+.actionBox p{
+   margin-top:.4rem;
+   font-size:4rem
 }
 .box{
     display:flex;
-    width:6.97rem;
+    width:6.85rem;
     height:5.75rem;
     border: 1px solid black;
 }
-.actionBox{
-    display:flex;
-    flex-direction: column;
-    width:7rem;
-    height:5.75rem;
-    border: 1px solid black;
+.box0{
+    width:20.8rem;
 }

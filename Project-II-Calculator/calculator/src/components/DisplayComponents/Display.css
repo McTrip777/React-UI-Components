@@ -3,4 +3,11 @@
     width:99.5%;
     border: 1px solid black;
     height:7.8rem;
+    background-color: grey; 
+}
+.screen p{
+    display: flex;
+    margin: auto 1rem auto auto; 
+    font-size:5rem;   
+    color:white;
 }
