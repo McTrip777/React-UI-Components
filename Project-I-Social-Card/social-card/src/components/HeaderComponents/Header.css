@@ -1,1 +1,50 @@
 /* All styles for your header Components live here */
+.container{
+    
+}
+.head{
+    display:flex;
+    border:2px solid orange;
+    padding-left:1rem;
+}
+.container .img{
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 auto auto;
+    border:2px solid green;
+    
+}
+.img img{
+    display:flex;
+    margin: 0 auto;   
+    padding: 1rem;  
+    width:50px;
+    height: 50px;
+}
+
+.container .titleBody{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 1rem;
+    border:2px solid lightblue;
+    padding: 0 1rem 0 0;
+}
+.titleBody h2{
+    font-size:1rem;
+}
+.titleBody p{
+    margin-top:0;
+}
+
+
+.container .lambda{
+    display:flex;
+    align-items: baseline;
+    
+}
+.container .lambda span{
+    font-size: 80%;
+    margin-left:1rem;
+    color: grey;
+}
